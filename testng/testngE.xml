@@ -1,0 +1,12 @@
+<suite name="Suite">
+    <test name = "Escalation Configuration" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.EscalationConfiguration.CreateEscalationRole"/>
+            <class name="com.Module.EscalationConfiguration.CreateNewRegionToEscalation"/>
+            <class name="com.Module.EscalationConfiguration.Suspend_UnsuspendEscalationRole"/>
+            <class name="com.Module.EscalationConfiguration.Suspend_UnsuspendRegionToRole"/>
+            <class name="com.Module.EscalationConfiguration.UpdateEscalationRole"/>
+            <class name="com.Module.EscalationConfiguration.UpdateRegionToRole"/>
+        </classes>
+    </test>
+</suite>

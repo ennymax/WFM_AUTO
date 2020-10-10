@@ -1,0 +1,15 @@
+<suite name="Suite">
+    <test name = "Manage Department" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <classes>
+            <class name="com.Module.DepartmentManagement.CreateDepartment"/>
+            <class name="com.Module.ManageWorkOrder.AddRemark"/>
+            <class name="com.Module.ManageWorkOrder.AdvancedSearch"/>
+            <class name="com.Module.ManageWorkOrder.ChangePriorities"/>
+            <class name="com.Module.ManageWorkOrder.ViewWorkOrder"/>
+            <class name="com.Module.ManageWorkOrder.UpDateStatus"/>
+            <class name="com.Module.ManageWorkOrder.UpdateWorkOrder"/>
+            <class name="com.Module.ManageWorkOrder.CreateWorkOrder"/>
+            <class name="com.Module.ManageWorkOrder.Suspend_Unsuspend_WorkOrder"/>
+        </classes>
+    </test>
+</suite>

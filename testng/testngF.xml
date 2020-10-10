@@ -1,0 +1,25 @@
+<suite name="Suite">
+    <test name = "Right Template" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.RightTemplate.Suspend_UnsuspendRightTemplate"/>
+            <class name="com.Module.RightTemplate.UpdateRightTemplate"/>
+            <class name="com.Module.RightTemplate.CreateRightTemplate"/>
+            <class name="com.Module.RightTemplate.CreateUsers"/>
+        </classes>
+    </test>
+
+    <test name = "Pages" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.Pages.AssertDepartment"/>
+            <class name="com.Module.Pages.AssertEscalation"/>
+            <class name="com.Module.Pages.AssertManageQueue"/>
+            <class name="com.Module.Pages.AssertQueueType"/>
+            <class name="com.Module.Pages.AssertResourcePage"/>
+            <class name="com.Module.Pages.AssertRigntTemplate"/>
+            <class name="com.Module.Pages.AssertScheduleManagement"/>
+            <class name="com.Module.Pages.AssertSourceComplaint"/>
+            <class name="com.Module.Pages.AssertWorkOrderStatus"/>
+            <class name="com.Module.Pages.Dashboard"/>
+        </classes>
+    </test>
+</suite>

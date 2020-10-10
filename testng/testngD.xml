@@ -1,0 +1,23 @@
+<suite name="Suite">
+    <test name = "Resource Allocation Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.ResourceAllocationManagement.CreateNewResource"/>
+            <class name="com.Module.ResourceAllocationManagement.CreateResourceLevel"/>
+            <class name="com.Module.ResourceAllocationManagement.UpdateResouceLevel"/>
+            <class name="com.Module.ResourceAllocationManagement.CreateResourceType"/>
+            <class name="com.Module.ResourceAllocationManagement.Suspend_UnsuspendResourceType"/>
+            <class name="com.Module.ResourceAllocationManagement.Suspend_UnsuspendResourceLevel"/>
+            <class name="com.Module.ResourceAllocationManagement.UpdateResourceType"/>
+            <class name="com.Module.ResourceAllocationManagement.CreateSourceComplaint"/>
+        </classes>
+    </test>
+
+    <test name = "Source Complaint" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.SourceComplaint.CreateSourceComplaint"/>
+            <class name="com.Module.SourceComplaint.UpdateSourceComplain"/>
+            <class name="com.Module.SourceComplaint.Suspend_UnsuspendSourceComplain"/>
+
+        </classes>
+    </test>
+</suite>

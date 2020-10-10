@@ -1,0 +1,30 @@
+<suite name="Suite">
+    <test name = "Queue Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <classes>
+            <class name="com.Module.QueueManagement.SUSPEND_AND_UNSUSPEND_QUEUE"/>
+            <class name="com.Module.QueueManagement.CreateQueue"/>
+            <class name="com.Module.QueueManagement.UpdateQUEUE"/>
+        </classes>
+    </test>
+
+    <test name = "QueueTypeManagement" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.QueueTypeManagement.CreateQueueType"/>
+            <class name="com.Module.QueueTypeManagement.AddStatusToQueueType"/>
+            <class name="com.Module.QueueTypeManagement.SetUpEscalationForQueueType"/>
+            <class name="com.Module.QueueTypeManagement.AddStatusToQueueType"/>
+            <class name="com.Module.QueueTypeManagement.Show_HideStatusFromResource"/>
+            <class name="com.Module.QueueTypeManagement.Suspend_UnsuspendQueueType"/>
+            <class name="com.Module.QueueTypeManagement.UpdateQueueType"/>
+            <class name="com.Module.QueueTypeManagement.Suspend_UnsuspendQueueTypeStatus"/>
+        </classes>
+    </test>
+
+    <test name = "Manage WorkOrder Status" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.ManageWorkOrderStatus.Suspend_UnsuspenStatus"/>
+            <class name="com.Module.ManageWorkOrderStatus.UpdateStatus"/>
+            <class name="com.Module.ManageWorkOrderStatus.CreateStatus"/>
+        </classes>
+    </test>
+</suite>

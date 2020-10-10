@@ -1,0 +1,21 @@
+<suite name="Suite">
+    <test name = "File Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.FileManagement.UploadFile"/>
+            <class name="com.Module.FileManagement.DeleteAttachedFile"/>
+            <class name="com.Module.FileManagement.DownloadAttachedFile"/>
+            <class name="com.Module.FileManagement.ViewAttachedFile"/>
+        </classes>
+    </test>
+
+    <test name = "Schedule Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+        <classes>
+            <class name="com.Module.SheduleManagement.CreateResourceShift"/>
+            <class name="com.Module.SheduleManagement.CreateResourseShedule"/>
+            <class name="com.Module.SheduleManagement.Suspend_UnsuspendResourceShedule"/>
+            <class name="com.Module.SheduleManagement.Suspend_UnsuspendResourceShift"/>
+            <class name="com.Module.SheduleManagement.UpdateResourceShedule"/>
+            <class name="com.Module.SheduleManagement.UpdateResourceShift"/>
+        </classes>
+    </test>
+</suite>
