@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "Manage Department" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Manage Department" parallel = "methods" thread-count = "2" group-by-instances="false" >
     <classes>
             <class name="com.Module.DepartmentManagement.CreateDepartment"/>
             <class name="com.Module.ManageWorkOrder.AddRemark"/>

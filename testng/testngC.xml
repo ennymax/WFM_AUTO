@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "File Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "File Management" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.FileManagement.UploadFile"/>
             <class name="com.Module.FileManagement.DeleteAttachedFile"/>
@@ -8,7 +8,7 @@
         </classes>
     </test>
 
-    <test name = "Schedule Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Schedule Management" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.SheduleManagement.CreateResourceShift"/>
             <class name="com.Module.SheduleManagement.CreateResourseShedule"/>

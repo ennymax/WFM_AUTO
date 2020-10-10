@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "Escalation Configuration" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Escalation Configuration" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.EscalationConfiguration.CreateEscalationRole"/>
             <class name="com.Module.EscalationConfiguration.CreateNewRegionToEscalation"/>

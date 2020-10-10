@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "Right Template" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Right Template" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.RightTemplate.Suspend_UnsuspendRightTemplate"/>
             <class name="com.Module.RightTemplate.UpdateRightTemplate"/>
@@ -8,7 +8,7 @@
         </classes>
     </test>
 
-    <test name = "Pages" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Pages" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.Pages.AssertDepartment"/>
             <class name="com.Module.Pages.AssertEscalation"/>

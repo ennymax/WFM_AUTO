@@ -1,5 +1,5 @@
 <suite name="Suite">
-    <test name = "Resource Allocation Management" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Resource Allocation Management" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.ResourceAllocationManagement.CreateNewResource"/>
             <class name="com.Module.ResourceAllocationManagement.CreateResourceLevel"/>
@@ -12,7 +12,7 @@
         </classes>
     </test>
 
-    <test name = "Source Complaint" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Source Complaint" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.SourceComplaint.CreateSourceComplaint"/>
             <class name="com.Module.SourceComplaint.UpdateSourceComplain"/>

@@ -7,7 +7,7 @@
         </classes>
     </test>
 
-    <test name = "QueueTypeManagement" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "QueueTypeManagement" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.QueueTypeManagement.CreateQueueType"/>
             <class name="com.Module.QueueTypeManagement.AddStatusToQueueType"/>
@@ -20,7 +20,7 @@
         </classes>
     </test>
 
-    <test name = "Manage WorkOrder Status" parallel = "methods" thread-count = "3" group-by-instances="false" >
+    <test name = "Manage WorkOrder Status" parallel = "methods" thread-count = "2" group-by-instances="false" >
         <classes>
             <class name="com.Module.ManageWorkOrderStatus.Suspend_UnsuspenStatus"/>
             <class name="com.Module.ManageWorkOrderStatus.UpdateStatus"/>
